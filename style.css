@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
 html {
     box-sizing: border-box;
 }
@@ -5,5 +7,19 @@ html {
 body {
     margin: 0;
     min-height: 100vh;
-    background-color: darkorchid;
+    font-family: 'Merriweather', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1b2a4;
+}
+
+#button {
+    padding: 10px;
+    background: white;
+    color: #f74b24;
+    font-weight: 700;
+    font-size: 24px;  
+    border-radius: 10px;
+    border-width: 10px;
 }
